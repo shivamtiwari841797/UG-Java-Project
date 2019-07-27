@@ -1,0 +1,20 @@
+* For Windows 7 Only.
+
+* For other windows, New Version will be uploaded soon.
+
+* First establish database connection :
+
+	*open Control Panel
+	*go to Administrative Tools
+	*click Data Sources (ODBC)
+	*In User DSN, click Add
+	*after scrolling down select Microsoft Access Driver(*.mdb, *.accdb), click Finish
+	*In Data Source Name, fill--> ADB (must be ADB, otherwise application will not perform well)
+	*click Select button and browse to Database named as DB.accdb which is in this zar file in setup folder
+	*now click OK onwards.
+
+
+* After Connecting to Database, Open Application and while logging in first time enter:
+	
+	*username=qwerty
+	*password=1234
